@@ -33,13 +33,7 @@ body header {
   background-color: #f3f3f3;
 }
 
-.headerButton a {
-  color: #222222;
-  text-decoration: none;
-  letter-spacing: 0.7px;
-}
-
-.headerButton a:hover {
-  color: #222222;
+.headerButton {
+  background-color: #222222;
 }
 /*# sourceMappingURL=style.css.map */
