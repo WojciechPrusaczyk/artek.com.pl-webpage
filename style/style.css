@@ -1,0 +1,45 @@
+body {
+  background-color: #f0f8ff;
+}
+
+body footer {
+  background-color: #f3f3f3;
+}
+
+body footer .d0 {
+  color: #575757;
+}
+
+body footer .d0 ul {
+  list-style: none;
+}
+
+body footer .d0 ul a {
+  color: #222222;
+  text-decoration: none;
+  letter-spacing: 0.7px;
+}
+
+body footer .d1 {
+  color: #575757;
+}
+
+body footer .d2 {
+  background-color: #d1d1d1;
+  color: #4d4d4d;
+}
+
+body header {
+  background-color: #f3f3f3;
+}
+
+.headerButton a {
+  color: #222222;
+  text-decoration: none;
+  letter-spacing: 0.7px;
+}
+
+.headerButton a:hover {
+  color: #222222;
+}
+/*# sourceMappingURL=style.css.map */
