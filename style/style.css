@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   background-color: #f0f8ff;
 }
@@ -34,6 +41,26 @@ body header {
 }
 
 .headerButton {
-  background-color: #222222;
+  background-color: #be8544;
+  border-radius: 5px;
+  height: 90%;
+}
+
+.headerButton a {
+  text-decoration: none;
+  color: #4e381e;
+}
+
+.inputText {
+  border: 2px solid #1f1f1f;
+  border-radius: 3px;
+}
+
+.inputText:focus {
+  border: 2px solid #818181;
+  width: 33%;
+  border-radius: 5px;
+  background-color: #f3f3f3;
+  border: none;
 }
 /*# sourceMappingURL=style.css.map */
