@@ -7,7 +7,7 @@
         <meta charset="utf-8">
     </head>
     <body>
-        <header class="fixed-top">
+        <header class="relative-top">
                 <div class="row pb-2 fw-bold">
                     <div class="col-md-12 col-xl-3 text-center">
                             <img src="./assets/logo/larger-logo.png" alt="Logo" class="pt-1" style="height: 100px;">
@@ -51,14 +51,31 @@
                 </div>
         </header>
         <main>
-            <img src="./assets/logo/larger-logo.png" alt="Logo" class="pt-1" style="height: 100px;">
-            
-            
+            <?php
+                include('products.php');
+            ?>
+            <div>
+                <div class="row">
+                    <div class="col">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8">
+
+                    </div>
+                    <div class="col-3">
+
+                    </div>
+                </div>
+                <div class="row">
+
+                </div>
+            </div>
         </main>
         <nav>
 
         </nav>
-        <footer class="fixed-bottom">
+        <footer class="relative-bottom">
             <div class="row">
                 <div class="d0 col">
                     <ul class="text-center">
