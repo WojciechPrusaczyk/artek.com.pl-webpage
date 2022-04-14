@@ -49,11 +49,11 @@ body{
         
     }
     a:hover{
-        background-color: #7fcf9e;
+        background-color: #f3f3f3;
         color: #4e381e;
         animation-name: backgroundColorPalette;
-        animation-duration: 8s;
-        animation-iteration-count: infinite;
+        animation-duration: 2s;
+        animation-iteration-count:inherit;
     }
 }
 
@@ -69,15 +69,7 @@ body{
 
 @keyframes backgroundColorPalette {
     0% {
-      color: #0B4F6C;
-    }
-    25% {
-      color: #a401ef;
-    }
-    50% {
-      color: #f1ad25;
-    }
-    75% {
-      color: #DA2C38;
+      color: #627461;
+      background-color: #cde4cc;
     }
 }
