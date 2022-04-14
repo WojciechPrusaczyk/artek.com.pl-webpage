@@ -35,6 +35,11 @@ body{
          }
          .d1{
              color: #575757;
+             .a2{
+                background: -webkit-linear-gradient(#405DE6, #5851DB, #C13584, #FD1D1D, #F56040, #FFDC80);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+             }
          }
          .d2{
              background-color: #d1d1d1;
@@ -52,7 +57,7 @@ body{
         background-color: #f3f3f3;
         color: #4e381e;
         animation-name: backgroundColorPalette;
-        animation-duration: 2s;
+        animation-duration: 1.5s;
         animation-iteration-count:inherit;
     }
 }

@@ -45,6 +45,12 @@ body footer .d1 {
   color: #575757;
 }
 
+body footer .d1 .a2 {
+  background: -webkit-linear-gradient(#405DE6, #5851DB, #C13584, #FD1D1D, #F56040, #FFDC80);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 body footer .d2 {
   background-color: #d1d1d1;
   color: #4d4d4d;
@@ -60,8 +66,8 @@ body footer .d2 {
   color: #4e381e;
   -webkit-animation-name: backgroundColorPalette;
           animation-name: backgroundColorPalette;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
   -webkit-animation-iteration-count: inherit;
           animation-iteration-count: inherit;
 }
