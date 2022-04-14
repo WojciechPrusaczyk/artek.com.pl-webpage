@@ -7,10 +7,24 @@
 
 body {
   background-color: #f0f8ff;
+  position: relative;
+}
+
+body header {
+  background-color: #f3f3f3;
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+body main {
+  float: left;
+  position: relative;
 }
 
 body footer {
   background-color: #f3f3f3;
+  float: left;
 }
 
 body footer .d0 {
@@ -36,31 +50,60 @@ body footer .d2 {
   color: #4d4d4d;
 }
 
-body header {
-  background-color: #f3f3f3;
-}
-
-.headerButton {
-  background-color: #be8544;
-  border-radius: 5px;
-  height: 90%;
-}
-
 .headerButton a {
   text-decoration: none;
   color: #4e381e;
 }
 
-.inputText {
-  border: 2px solid #1f1f1f;
-  border-radius: 3px;
+.headerButton a:hover {
+  background-color: #7fcf9e;
+  color: #4e381e;
+  -webkit-animation-name: backgroundColorPalette;
+          animation-name: backgroundColorPalette;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 .inputText:focus {
-  border: 2px solid #818181;
   width: 33%;
   border-radius: 5px;
   background-color: #f3f3f3;
   border: none;
+}
+
+.formText {
+  background-color: #0c63e4;
+}
+
+@-webkit-keyframes backgroundColorPalette {
+  0% {
+    color: #0B4F6C;
+  }
+  25% {
+    color: #a401ef;
+  }
+  50% {
+    color: #f1ad25;
+  }
+  75% {
+    color: #DA2C38;
+  }
+}
+
+@keyframes backgroundColorPalette {
+  0% {
+    color: #0B4F6C;
+  }
+  25% {
+    color: #a401ef;
+  }
+  50% {
+    color: #f1ad25;
+  }
+  75% {
+    color: #DA2C38;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,3 +1,6 @@
+//@import '~bootstrap/scss/bootstrap';
+//@import './_variables';
+
 *{
     margin: 0;
     padding: 0;
@@ -5,50 +8,76 @@
 }
 body{
     background-color: #f0f8ff;
-    footer{
-        background-color: #f3f3f3;
-        .d0{
-            color: #575757;
-            ul{
-                list-style: none;
-                a{
-                    color:#222222;
-                    text-decoration: none;
-                    letter-spacing: 0.7px;
-                }
-            }
-        }
-        .d1{
-            color: #575757;
-        }
-        .d2{
-            background-color: #d1d1d1;
-            color: #4d4d4d;
-        }
-        
-    }
+    position: relative;
     header{
         background-color: #f3f3f3;
-        
+        position: relative;
+        float: left;
+        width: 100%;
     }
+    main{
+        float: left;
+        position: relative;
+    }
+    footer{
+        background-color: #f3f3f3;
+        float: left;
+         .d0{
+             color: #575757;
+             ul{
+                 list-style: none;
+                 a{
+                     color:#222222;
+                     text-decoration: none;
+                     letter-spacing: 0.7px;
+                 }
+             }
+         }
+         .d1{
+             color: #575757;
+         }
+         .d2{
+             background-color: #d1d1d1;
+             color: #4d4d4d;
+         }
+     }
 }
 .headerButton{
-    //background-color: #be8544;
-    border-radius: 5px;
-    height: 90%;
     a{
         text-decoration: none;
         color: #4e381e;
+        
+    }
+    a:hover{
+        background-color: #7fcf9e;
+        color: #4e381e;
+        animation-name: backgroundColorPalette;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
     }
 }
-.inputText{
-    border: 2px solid#1f1f1f;
-    border-radius: 3px;
-}
+
 .inputText:focus{
-    border: 2px solid#818181;
     width: 33%;
     border-radius: 5px;
     background-color: #f3f3f3;
     border: none;
+}
+.formText{
+    background-color: #0c63e4;
+}
+
+@keyframes backgroundColorPalette {
+    0% {
+      color: #0B4F6C;
+    }
+    25% {
+      color: #a401ef;
+    }
+    50% {
+      color: #f1ad25;
+    }
+    75% {
+      color: #DA2C38;
+    }
 }
