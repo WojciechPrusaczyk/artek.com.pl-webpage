@@ -10,7 +10,7 @@ body {
   position: relative;
 }
 
-body header {
+body nav {
   background-color: #f3f3f3;
   position: relative;
   float: left;
@@ -18,8 +18,21 @@ body header {
 }
 
 body main {
-  float: left;
   position: relative;
+  float: left;
+  padding: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  text-align: center;
+}
+
+body main form textarea {
+  resize: none;
+}
+
+body main p {
+  display: block;
 }
 
 body footer {
@@ -70,6 +83,11 @@ body footer .d2 {
           animation-duration: 1.5s;
   -webkit-animation-iteration-count: inherit;
           animation-iteration-count: inherit;
+}
+
+.test {
+  background-color: #4d4d4d;
+  color: #0c63e4;
 }
 
 .inputText:focus {

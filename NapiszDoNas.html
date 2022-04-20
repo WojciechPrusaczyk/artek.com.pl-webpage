@@ -26,13 +26,13 @@
     
 </head>
 <body>
-    <nav class="w-100 row m-0 p-0">
-        <div class="row pb-2 fw-bold">
+    <nav class="row m-0">
+        <div class="row fw-bold m-0">
             <div class="col-md-12 col-xl-3">
-                <img src="./assets/logo/logo bez tła.png" alt="Logo" class="d-block p-0" style="height: 170px;">
+                <img src="./assets/logo/logo bez tła.png" alt="Logo" class="d-block p-0 mx-auto" style="height: 170px;">
             </div>
             <div class="col-sm-12 col-md-4 col-xl-3 pt-3">
-                <div class="pt-4 headerButton">
+                <div class="pt-4 headerButton mx-auto">
                     <a href="" class="d-block text-center p-4">
                         Strona główna
                     </a>
@@ -40,13 +40,13 @@
             </div>
             <div class="col-sm-12 col-md-4 col-xl-3 pt-3">
                 <div class="pt-4 headerButton">
-                    <a href="" class="d-block text-center p-4">
+                    <a href="" class="d-block text-center p-4 mx-auto">
                         Realizacje
                     </a>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-4 col-xl-3 pt-3">
-                <div class="pt-4 headerButton">
+            <div class="col-sm-12 col-md-4 col-xl-3 pt-3 pb-3">
+                <div class="pt-4 headerButton mx-auto">
                     <a href="" class="d-block text-center p-4">
                         Kontakt
                     </a>
@@ -55,21 +55,31 @@
         </div>
     </nav>
 
-    <main>
-        <div class="container">
-            <form action="" method="get">
+    <main class="">
+            <p class="my-5 w-75 mx-auto">
+                <h1>Napisz do nas!</h1><br>
+                <h3>Na wszystkie wiadomości odpowiadamy najszybciej jak to możliwe.</h3><br>
+            </p>
+            <form action="" method="get" class="my-5 w-75 mx-auto">
+                <div class="col-sm-12 col-md-6 col-xl-5 mx-auto">
+                    <input type="text" value="Imie i nazwisko" name="ProdName" class="form-control mx-auto m-3 mw-100" onclick="onFocusText(this, 'Imie i nazwisko')" onfocusout="onLostFocus(this, 'Imie i nazwisko')" style="color: grey">
+                </div>
+                <div class="col-sm-12 col-md-6 col-xl-5 mx-auto">
+                    <input type="text" value="Adres e-mail, lub telefon" name="contact" class="form-control mx-auto my-3 mw-100" onclick="onFocusText(this, 'Adres e-mail, lub telefon')" onfocusout="onLostFocus(this, 'Adres e-mail, lub telefon')" style="color: grey">
+                </div>
+                <div class="">
+                    <textarea name="" id="" value="Wiadomość..." name="message" class="form-control mx-auto my-3 h-25" onclick="onFocusText(this, 'Wiadomość...')" onfocusout="onLostFocus(this, 'Wiadomość...')" style="color: grey"></textarea>
+                </div>
+                <div class="col-sm-8 col-md-6 col-xl-3 mx-auto">
+                    <input type="submit" value="Wyślij" class="btn btn-light my-3 mx-auto p-3 w-75">
+                </div>
                         
+                
                         
-
-                <input type="text" value="Imie i nazwisko" name="ProdName" class="form-control mx-auto" onclick="onFocusText(this, 'Imie i nazwisko')" onfocusout="onLostFocus(this, 'Imie i nazwisko')" style="color: grey">
+                
                         
-                <input type="text" value="Adres e-mail, lub telefon" name="contact" class="form-control mx-auto" onclick="onFocusText(this, 'Adres e-mail, lub telefon')" onfocusout="onLostFocus(this, 'Adres e-mail, lub telefon')" style="color: grey">
-                        
-                <textarea name="" id="" value="Wiadomość..." name="message" class="form-control mx-auto" onclick="onFocusText(this, 'Wiadomość...')" onfocusout="onLostFocus(this, 'Wiadomość...')" style="color: grey"></textarea>
-                        
-                <input type="submit" value="Wyślij" class="btn btn-light mb-2 mt-1">
+                
             </form>
-        </div>
     </main>
     <footer class="w-100 row d-block m-0 p-0">
             <div class="d0 col">
