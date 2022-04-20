@@ -1,41 +1,80 @@
+//@import '~bootstrap/scss/bootstrap';
+//@import './_variables';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background-color: #f0f8ff;
-    footer{
-        background-color: #f3f3f3;
-        .d0{
-            color: #575757;
-            ul{
-                list-style: none;
-                a{
-                    color:#222222;
-                    text-decoration: none;
-                    letter-spacing: 0.7px;
-                }
-            }
-        }
-        .d1{
-            color: #575757;
-        }
-        .d2{
-            background-color: #d1d1d1;
-            color: #4d4d4d;
-        }
-        
-    }
+    position: relative;
     header{
         background-color: #f3f3f3;
+        position: relative;
+        float: left;
+        width: 100%;
     }
+    main{
+        float: left;
+        position: relative;
+    }
+    footer{
+        background-color: #f3f3f3;
+        float: left;
+         .d0{
+             color: #575757;
+             ul{
+                 list-style: none;
+                 a{
+                     color:#222222;
+                     text-decoration: none;
+                     letter-spacing: 0.7px;
+                 }
+             }
+         }
+         .d1{
+             color: #575757;
+             .a2{
+                background: -webkit-linear-gradient(#405DE6, #5851DB, #C13584, #FD1D1D, #F56040, #FFDC80);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+             }
+         }
+         .d2{
+             background-color: #d1d1d1;
+             color: #4d4d4d;
+         }
+     }
 }
 .headerButton{
     a{
-        color:#222222;
         text-decoration: none;
-        letter-spacing: 0.7px;
+        color: #4e381e;
         
     }
     a:hover{
-        color:#222222;
+        background-color: #f3f3f3;
+        color: #4e381e;
+        animation-name: backgroundColorPalette;
+        animation-duration: 1.5s;
+        animation-iteration-count:inherit;
     }
-    
-    
+}
+
+.inputText:focus{
+    width: 33%;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    border: none;
+}
+.formText{
+    background-color: #0c63e4;
+}
+
+@keyframes backgroundColorPalette {
+    0% {
+      color: #627461;
+      background-color: #cde4cc;
+    }
 }
