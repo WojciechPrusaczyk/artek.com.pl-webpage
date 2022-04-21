@@ -27,8 +27,19 @@ body main {
   text-align: center;
 }
 
+body main form input[type="submit"], body main form input[type="button"] {
+  background-color: #e8ffee;
+  color: #50886a;
+  font-weight: bold;
+}
+
 body main form textarea {
   resize: none;
+  border: none;
+}
+
+body main form textarea:focus {
+  border: none;
 }
 
 body main p {
@@ -75,7 +86,7 @@ body footer .d2 {
 }
 
 .headerButton a:hover {
-  background-color: #f3f3f3;
+  background-color: #e9e9e9;
   color: #4e381e;
   -webkit-animation-name: backgroundColorPalette;
           animation-name: backgroundColorPalette;
