@@ -46,6 +46,10 @@ body main p {
   display: block;
 }
 
+body main image {
+  pointer-events: none;
+}
+
 body footer {
   background-color: #f3f3f3;
   float: left;
@@ -55,11 +59,11 @@ body footer .d0 {
   color: #575757;
 }
 
-body footer .d0 ul {
+body footer .d0 li {
   list-style: none;
 }
 
-body footer .d0 ul a {
+body footer .d0 li a {
   color: #222222;
   text-decoration: none;
   letter-spacing: 0.7px;
