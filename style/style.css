@@ -69,6 +69,10 @@ body footer .d0 li a {
   letter-spacing: 0.7px;
 }
 
+body footer .d0 li a:hover {
+  color: #405DE6;
+}
+
 body footer .d1 {
   color: #575757;
 }
@@ -84,6 +88,23 @@ body footer .d2 {
   color: #4d4d4d;
 }
 
+.imageRow {
+  letter-spacing: 0.1em;
+  -webkit-transition: letter-spacing 2s;
+}
+
+.imageRow:hover {
+  background-color: #f3f3f3;
+  -webkit-transition: background-color 2s;
+  transition: background-color 2s;
+}
+
+.imageRow:hover h2 {
+  letter-spacing: 0.11em;
+  -webkit-transition: letter-spacing 2s;
+  transition: letter-spacing 2s;
+}
+
 .headerButton a {
   text-decoration: none;
   color: #4e381e;
@@ -94,8 +115,8 @@ body footer .d2 {
   color: #4e381e;
   -webkit-animation-name: backgroundColorPalette;
           animation-name: backgroundColorPalette;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
   -webkit-animation-iteration-count: inherit;
           animation-iteration-count: inherit;
 }
@@ -127,6 +148,24 @@ body footer .d2 {
   0% {
     color: #627461;
     background-color: #cde4cc;
+  }
+}
+
+@-webkit-keyframes lettersAnimation {
+  0% {
+    letter-spacing: 0.1em;
+  }
+  100% {
+    letter-spacing: 0.2em;
+  }
+}
+
+@keyframes lettersAnimation {
+  0% {
+    letter-spacing: 0.1em;
+  }
+  100% {
+    letter-spacing: 0.2em;
   }
 }
 /*# sourceMappingURL=style.css.map */
