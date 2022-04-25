@@ -5,6 +5,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Trebuchet MS';
+    font-size: 105%;
 }
 body{
     background-color: #f0f8ff;
@@ -19,6 +21,7 @@ body{
         position: relative;
         float: left;
         padding: 3%;
+        padding-top: 10%;
         margin-left: 5%;
         margin-right: 5%;
         width: 90%;
@@ -84,7 +87,7 @@ body{
             letter-spacing: 0.11em;
             transition: letter-spacing 2s;
         }
-        background-color: #f3f3f3;
+        background-color: #f1f1f1;
         transition: background-color 2s;
     }
 }
@@ -117,7 +120,23 @@ body{
 .formText{
     background-color: #0c63e4;
 }
-
+.zdjecieGlowne{
+    width: 100%;
+    max-height: 200px;
+    
+}
+.zdjecieGlowneTekst{
+    background-image: url("../data/images/zadaszenie1.jpg");
+    font-weight: bold;
+    font-size: 3rem;
+    color: #f0f8ff;
+    text-shadow: 3px 3px #222222;
+    min-height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 @keyframes backgroundColorPalette {
     0% {
       color: #627461;
