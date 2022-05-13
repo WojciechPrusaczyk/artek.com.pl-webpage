@@ -1,0 +1,9 @@
+//Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^artek.com.pl[nc]
+RewriteRule ^(.*)$ http://www.artek.com.pl/$1 [r=301,nc]
+
+//Change default directory page
+DirectoryIndex StronaGlowna.html
+ 
